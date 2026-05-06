@@ -1,4 +1,4 @@
-import { apiSlice } from '../api/apiSlice';
+import { apiSlice } from '@/features/api/apiSlice';
 
 interface Category {
     id: number;

@@ -1,5 +1,5 @@
-import { apiSlice } from '../api/apiSlice';
-import { login, logout } from './authSlice.ts';
+import { apiSlice } from '@/features/api/apiSlice';
+import { login, logout } from '@/features/auth/authSlice';
 
 interface AuthResponse {
     data: {
